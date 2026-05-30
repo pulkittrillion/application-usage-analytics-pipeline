@@ -1,0 +1,11 @@
+date,employee_id,branch,department,total_tasks,app_tasks,manual_tasks,app_name
+2025-05-01,EMP001,Branch01,Operations,45,42,3,TaskManagementApp
+2025-05-01,EMP002,Branch01,Operations,38,25,13,TaskManagementApp
+2025-05-01,EMP003,Branch02,Delivery,52,48,4,DeliveryApp
+2025-05-01,EMP004,Branch01,Operations,40,38,2,TaskManagementApp
+2025-05-02,EMP001,Branch01,Operations,50,47,3,TaskManagementApp
+2025-05-02,EMP005,Branch03,Delivery,35,20,15,DeliveryApp
+2025-05-02,EMP006,Branch02,Operations,55,52,3,TaskManagementApp
+2025-05-03,EMP002,Branch01,Operations,42,35,7,TaskManagementApp
+2025-05-03,EMP007,Branch01,Operations,48,45,3,TaskManagementApp
+2025-05-03,EMP008,Branch03,Delivery,60,55,5,DeliveryApp
