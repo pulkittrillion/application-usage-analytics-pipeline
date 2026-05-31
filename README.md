@@ -13,3 +13,13 @@ Tracking how much work is done through applications vs manually was done in Exce
 ## Status: In Development
 
 **Built as part of Senior Data Engineer portfolio.**
+
+## Key Business Insights
+
+This pipeline enables tracking of:
+- **Application Adoption Rate** (mirroring real achievement: 18% → 99%)
+- **Manual Work Reduction**
+- **Efficiency Score**
+- Branch and Department level performance
+
+Run `queries.sql` in pgAdmin to explore the analytics.
