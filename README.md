@@ -1,25 +1,22 @@
 # Application Usage Analytics Pipeline
 
-**ETL pipeline** to analyze application usage data and track automation adoption metrics (e.g., 18% → 99% adoption).
+**End-to-end ETL pipeline** to analyze application usage data and track automation adoption metrics — directly inspired by real enterprise operations (18% → 99% adoption).
 
 ## Business Problem
-Tracking how much work is done through applications vs manually was done in Excel. This pipeline automates the process and provides key metrics on technology adoption and efficiency.
+Tracking application adoption vs manual work was previously done manually in Excel. This pipeline automates the process and delivers key business metrics.
 
 ## Tech Stack
 - Python, Pandas
 - PostgreSQL
 - psycopg2
 
-## Status: In Development
+## Pipeline Flow
+1. **Extract** — Raw usage logs from CSV
+2. **Transform** — Calculate adoption rate, manual rate, efficiency score, categorization
+3. **Load** — Store in PostgreSQL for analysis
 
-**Built as part of Senior Data Engineer portfolio.**
+## How to Run
 
-## Key Business Insights
-
-This pipeline enables tracking of:
-- **Application Adoption Rate** (mirroring real achievement: 18% → 99%)
-- **Manual Work Reduction**
-- **Efficiency Score**
-- Branch and Department level performance
-
-Run `queries.sql` in pgAdmin to explore the analytics.
+```bash
+pip install -r requirements.txt
+python run_pipeline.py
